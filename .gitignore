@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# VS Code
+.vscode/
+
+# Temporary files
+*.log
+*.tmp
+
+# Hugging Face / cache
+.cache/
+hf_cache/
+
+# Large local artifacts
+*.csv
+*.parquet
+*.zip
