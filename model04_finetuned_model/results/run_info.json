@@ -1,0 +1,14 @@
+{
+  "run_name": "formal_main",
+  "mode": "formal",
+  "device": "cuda",
+  "requested_epochs": 2,
+  "completed_epochs": 2,
+  "batch_size": 8,
+  "max_length": 128,
+  "train_path": "C:\\Users\\11630\\Desktop\\6713\\project\\data\\processed\\hc3_wordnet_train.csv",
+  "val_path": "C:\\Users\\11630\\Desktop\\6713\\project\\data\\processed\\hc3_wordnet_val.csv",
+  "model_path": "project\\local_models\\bert-base-uncased",
+  "sanity_train_samples": null,
+  "sanity_val_samples": null
+}
