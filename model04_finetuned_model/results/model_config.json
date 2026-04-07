@@ -1,0 +1,7 @@
+{
+  "model_name": "C:\\Users\\11630\\Desktop\\6713\\project\\local_models\\bert-base-uncased",
+  "wordnet_feature_dim": 4,
+  "dropout": 0.2,
+  "hidden_dim": 256,
+  "num_labels": 2
+}
