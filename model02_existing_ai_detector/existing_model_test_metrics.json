@@ -1,0 +1,7 @@
+{
+  "Model": "Model 02 Existing Public AI Detector",
+  "Accuracy": 0.8333120250017757,
+  "Precision": 0.7775894082505853,
+  "Recall": 0.5175433883187363,
+  "F1-score": 0.6214594489967095
+}

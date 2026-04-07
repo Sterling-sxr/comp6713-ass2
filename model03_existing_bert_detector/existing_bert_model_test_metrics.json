@@ -1,0 +1,7 @@
+{
+  "Model": "Model 03 Existing Public BERT Detector",
+  "Accuracy": 0.6664251722423468,
+  "Precision": 0.42599888590672,
+  "Recall": 0.7533358408109899,
+  "F1-score": 0.544239428601004
+}
