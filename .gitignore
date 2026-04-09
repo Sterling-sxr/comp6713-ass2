@@ -30,3 +30,6 @@ hf_cache/
 *.parquet
 *.zip
 .venv/
+
+# Dataset splits (local only)
+datasets/splits/
