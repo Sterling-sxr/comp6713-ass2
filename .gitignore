@@ -33,3 +33,4 @@ hf_cache/
 
 # Dataset splits (local only)
 datasets/splits/
+*.parquet
