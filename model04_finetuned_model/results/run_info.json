@@ -1,14 +1,28 @@
 {
-  "run_name": "formal_main",
-  "mode": "formal",
+  "run_name": "team_split_compare_large",
+  "created_at": "2026-04-07T21:49:38",
+  "team_split_root": "C:\\Users\\11630\\Desktop\\6713\\comp6713-ass2\\datasets\\splits",
+  "train_path": "C:\\Users\\11630\\Desktop\\6713\\comp6713-ass2\\datasets\\splits\\train.parquet",
+  "val_path": "C:\\Users\\11630\\Desktop\\6713\\comp6713-ass2\\datasets\\splits\\val.parquet",
+  "test_path": "C:\\Users\\11630\\Desktop\\6713\\comp6713-ass2\\datasets\\splits\\test.parquet",
+  "sample_sizes": {
+    "train": 50000,
+    "val": 10000,
+    "test": null
+  },
+  "feature_columns": [
+    "wn_avg_synset_count",
+    "wn_avg_synonym_count",
+    "wn_coverage_ratio",
+    "wn_avg_hypernym_depth"
+  ],
   "device": "cuda",
-  "requested_epochs": 2,
-  "completed_epochs": 2,
-  "batch_size": 8,
-  "max_length": 128,
-  "train_path": "C:\\Users\\11630\\Desktop\\6713\\project\\data\\processed\\hc3_wordnet_train.csv",
-  "val_path": "C:\\Users\\11630\\Desktop\\6713\\project\\data\\processed\\hc3_wordnet_val.csv",
-  "model_path": "project\\local_models\\bert-base-uncased",
-  "sanity_train_samples": null,
-  "sanity_val_samples": null
+  "config": {
+    "seed": 42,
+    "batch_size": 8,
+    "max_length": 256,
+    "epochs": 1,
+    "learning_rate": 2e-05,
+    "weight_decay": 0.01
+  }
 }
